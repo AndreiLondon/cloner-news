@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  nav {
+    background-color: #6938d3;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7b2cbf;
+    height: 50px;
+  }
+  
+  nav h1 {
+    margin: 0;
+    align-items: center;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+  }
+  
+  #stories-container,
+  #jobs-container,
+  #polls-container,
+  #comments-container {
+    background-color: #F7F7F7;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #C5C5C5;
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  #stories-container h2,
+  #jobs-container h2,
+  #polls-container h2,
+  #comments-container h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  #stories-container a {
+    color: #7B3FFF;
+    text-decoration: none;
+  }
+  
+  #stories-container a:hover {
+    text-decoration: underline;
+  }
+  
